@@ -34,9 +34,9 @@ const Footer = () => {
           <h4>Get in Touch</h4>
           <a href='mailto:aniketsahran3@gmail.com'><p>aniketsahran3@gmail.com</p></a>
           <p>
-            <a className='app__footer-links_div_socialIcon' href='https://www.instagram.com/aniketsahran/'><BsInstagram size={24} /></a>
-            <a className='app__footer-links_div_socialIcon' href='https://www.facebook.com/aniket.sahran.7'><BsFacebook size={24} /></a>
-            <a className='app__footer-links_div_socialIcon' href='https://www.linkedin.com/in/aniket-sahran-453586201/'><BsLinkedin size={24} /></a>
+            <a className='app__footer-links_div_socialIcon' href='https://www.instagram.com/aniketsahran/' target='_blank'><BsInstagram size={24} /></a>
+            <a className='app__footer-links_div_socialIcon' href='https://www.facebook.com/aniket.sahran.7' target='_blank'><BsFacebook size={24} /></a>
+            <a className='app__footer-links_div_socialIcon' href='https://www.linkedin.com/in/aniket-sahran-453586201/' target='_blank'><BsLinkedin size={24} /></a>
           </p>
         </div>
       </div>
