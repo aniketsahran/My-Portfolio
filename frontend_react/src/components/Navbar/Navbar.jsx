@@ -14,15 +14,15 @@ const Navbar = () => {
           <img src={NavbarLogo} />
         </div>
         <div className="app__navbar-links_container">
-          <p><a href="#about">About Me</a></p>
-          <p><a href="#skills">Skills</a></p>
-          <p><a href="#experience">Experience</a></p>
-          <p><a href="#websites">Projects</a></p>
-          <p><a href="#education">Education</a></p>
+          <p><a href="#about" className='hover-underline-animation'>About Me</a></p>
+          <p><a href="#skills" className='hover-underline-animation'>Skills</a></p>
+          <p><a href="#experience" className='hover-underline-animation'>Experience</a></p>
+          <p><a href="#websites" className='hover-underline-animation'>Projects</a></p>
+          <p><a href="#education" className='hover-underline-animation'>Education</a></p>
         </div>
       </div>
       <div className="app__navbar-sign">
-        <p>My Resume</p>
+        <p className='hover-underline-animation'>My Resume</p>
         <a href="#contact"><button type="button">Contact Me</button></a>
       </div>
       <div className="app__navbar-menu">
