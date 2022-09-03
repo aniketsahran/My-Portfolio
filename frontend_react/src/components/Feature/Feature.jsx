@@ -1,8 +1,18 @@
 import React from 'react';
 
-const Feature = () => {
+import './feature.css';
+
+const Feature = ({ title, text}) => {
   return (
-    <div>Feature</div>
+    <div className='app__features-container__feature'>
+      <div className='app__features-container__feature-title'>
+        <div />
+        <h1>{title}</h1>
+      </div>
+      <div className='app__features-container__feature-text'>
+        <p>{text}</p>
+      </div>
+    </div>
   )
 }
 
