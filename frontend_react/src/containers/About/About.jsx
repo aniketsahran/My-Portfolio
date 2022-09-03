@@ -1,9 +1,11 @@
 import React from 'react';
 
+import { AppWrap } from '../../wrapper';
+
 const About = () => {
   return (
-    <div>About</div>
+    <div id='about'>About</div>
   )
 }
 
-export default About;
+export default AppWrap(About, 'about');

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="app__navbar">
+    <div className="app__navbar" id='navbar'>
       <div className="app__navbar-links">
         <div className="app__navbar-links_logo">
           <img src={NavbarLogo} />
