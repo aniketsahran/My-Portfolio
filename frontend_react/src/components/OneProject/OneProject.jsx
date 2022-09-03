@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './article.css';
+import './oneproject.css';
 
 const Article = ({ imgUrl, date, title }) => {
   return (
