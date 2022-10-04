@@ -1,16 +1,16 @@
 export default {
-    name:'testimonials',
-    title:'Testimonials',
+    name:'websites',
+    title:'Websites',
     type: 'document',
     fields:[
         { 
-            name:'name',
-            title:'Name',
+            name:'title',
+            title:'Title',
             type: 'string'
         },
         {
-            name:'company',
-            title:'Company',
+            name:'date',
+            title:'Date',
             type:'string'
         },
         {
@@ -22,8 +22,13 @@ export default {
             },
         },  
         {
-            name:'feedback',
-            title:'Feedback',
+            name:'desc',
+            title:'Description',
+            type:'string'
+        },
+        {
+            name:'link',
+            title:'Link',
             type:'string'
         }
     ]

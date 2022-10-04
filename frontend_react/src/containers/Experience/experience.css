@@ -1,0 +1,95 @@
+.app__experience {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 6rem;
+    margin-top: 2rem;
+}
+
+.app__experience-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+.app__experience-heading h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+}
+
+.app__experience-container {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.app__experience-item__heading-bar {
+    width: 38px;
+    height: 3px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    margin-bottom: 0.25rem;
+}
+
+.app__experience-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.app__experience-company {
+    display: flex;
+    flex: 1;
+}
+
+.app__experience-company h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.app__experience-works {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 1.5rem;
+}
+
+.app__experience-works h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: var(--color-subtext);
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.app__experience-works p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-text);
+    text-align: justify;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 990px) {
+    .app__experience-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .app__experience-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

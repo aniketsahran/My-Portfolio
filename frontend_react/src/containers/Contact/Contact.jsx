@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import './contact.css';
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div id='contact' className='section__padding'>
+      Contact
+    </div>
   )
 }
 

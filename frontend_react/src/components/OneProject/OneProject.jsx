@@ -1,8 +1,9 @@
 import React from 'react';
 
+import Feature from '../Feature/Feature';
 import './oneproject.css';
 
-const Article = ({ imgUrl, date, title }) => {
+const Article = ({ imgUrl, date, title, desc, link }) => {
   return (
     <div className='app__websites-container_project'>
       <div className='app__websites-container_project-image'>
@@ -10,10 +11,13 @@ const Article = ({ imgUrl, date, title }) => {
       </div>
       <div className='app__websites-container_project-content'>
         <div>
-          <p>{date}</p>
-          <h3>{title}</h3>
+          <p className='app__websites-container_project-content_date'>{date}</p>
+          <Feature 
+            title={title}
+            text={desc}
+          />
+          <a href={link}><p className='app__websites-container_project-content_date'>View Full Project</p></a>
         </div>
-        <p>Read Full Article</p>
       </div>
     </div>
   )

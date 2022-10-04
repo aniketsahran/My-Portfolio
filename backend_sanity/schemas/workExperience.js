@@ -4,12 +4,12 @@ export default {
     type:'document',
     fields:[
            {name:'name',
-               title:'name',
+               title:'Name',
                type:'string'
             },
             {
-                name:'company',
-                title:'Company',
+                name:'year',
+                title:'Year',
                 type:'string'
             },
             {

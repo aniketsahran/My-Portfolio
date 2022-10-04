@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     margin: 1rem;
 }
 
@@ -33,7 +33,9 @@
 .app__features-container__feature-text {
     flex: 2;
     max-width: 390px;
+    margin-top: 1.2rem;
     display: flex;
+    flex-direction: column;
 }
 
 .app__features-container__feature-text p {
