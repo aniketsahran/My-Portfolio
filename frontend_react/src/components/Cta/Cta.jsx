@@ -11,7 +11,9 @@ const Cta = () => {
           <h3>Download a shorter version for future reference.</h3>
         </div>
         <div className='app__cta-button'>
+        <a href="../../../public/AniketSahran.pdf">
           <button type='button'>Download my Resume</button>
+        </a>
         </div>
       </div>
     </div>

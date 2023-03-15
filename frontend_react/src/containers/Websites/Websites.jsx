@@ -16,8 +16,8 @@ const Websites = () => {
 
   return (
     <div className='app__websites' id='websites'>
-      <div className='app__websites-heading'>
-        <h1 className='gradient__text'>
+      <div className='app__websites-heading gradient__text'>
+        <h1>
           A lot is happening, and I'm trying to follow.
         </h1>
       </div>

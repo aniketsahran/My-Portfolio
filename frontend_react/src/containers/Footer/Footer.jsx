@@ -7,12 +7,6 @@ import './footer.css';
 const Footer = () => {
   return (
     <div className='app__footer section__padding'>
-      <div className='app__footer-heading'>
-        <h1 className='gradient__text'>Want to save a shorter version for future reference?</h1>
-      </div>
-      <div className='app__footer-btn'>
-        <p>Download my Resume</p>
-      </div>
       <div className='app__footer-links'>
         <div className='app__footer-links_logo'>
           <img src={NavbarLogo} alt='logo' />

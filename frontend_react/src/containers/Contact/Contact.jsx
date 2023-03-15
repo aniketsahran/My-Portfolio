@@ -48,7 +48,7 @@ const Contact = () => {
               </div>
             </div>
             <div className='app__contact-container__B'>
-              <textarea className='app__contact-container__p-text' placeholder='Your Message' value={message} name={message} onChange={handleChangeInput} />
+              <input className='app__contact-container__p-text' type='text' placeholder='Your Message' value={message} name='message' onChange={handleChangeInput} />
             </div>
             <button type='button' className='app__contact-container__button' onClick={handleSubmit}>{loading ? 'Sending' : 'Send Message'}</button>
           </div>

@@ -39,7 +39,6 @@ const Navbar = () => {
             <p><a href="#education">Education</a></p>
           </div>
           <div className="app__navbar-menu_container-links-sign">
-            <p>My Resume</p>
             <a href="#contact"><button type="button">Contact Me</button></a>
           </div>
         </div>

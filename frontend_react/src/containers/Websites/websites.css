@@ -52,7 +52,7 @@
 }
 
 @media screen and (max-width: 550px) {
-    .app__about-heading h1 {
+    .app__websites-heading h1 {
         font-size: 28px;
         line-height: 38px;
     }
